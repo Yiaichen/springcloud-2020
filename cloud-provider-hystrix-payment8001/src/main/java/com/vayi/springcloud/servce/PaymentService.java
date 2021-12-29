@@ -1,4 +1,4 @@
-package springcloud.servce;
+package com.vayi.springcloud.servce;
 
 import org.springframework.stereotype.Service;
 

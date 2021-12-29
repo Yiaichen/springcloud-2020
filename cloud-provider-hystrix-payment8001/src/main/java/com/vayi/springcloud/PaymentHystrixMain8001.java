@@ -1,4 +1,4 @@
-package springcloud;
+package com.vayi.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

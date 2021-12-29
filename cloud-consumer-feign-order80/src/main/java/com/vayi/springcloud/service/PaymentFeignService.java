@@ -1,4 +1,4 @@
-package com.vayi.service;
+package com.vayi.springcloud.service;
 
 import com.vayi.springcloud.entities.CommonResult;
 import org.springframework.cloud.openfeign.FeignClient;

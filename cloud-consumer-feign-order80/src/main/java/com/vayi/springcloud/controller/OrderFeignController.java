@@ -1,6 +1,6 @@
-package com.vayi.controller;
+package com.vayi.springcloud.controller;
 
-import com.vayi.service.PaymentFeignService;
+import com.vayi.springcloud.service.PaymentFeignService;
 import com.vayi.springcloud.entities.CommonResult;
 import com.vayi.springcloud.entities.Payment;
 import org.springframework.web.bind.annotation.GetMapping;
