@@ -30,6 +30,14 @@ public class OrderHystrixController {
         return result;
     }
 
+    /**
+     * HystrixCommand 标注此方法出现异常会进行降级处理
+     *      fallbackMethod: 指定对应降级的处理
+     *      HystrixProperty: 设置降级的属性
+     *
+     * @param id
+     * @return
+     */
     @GetMapping("/consumer/payment/hystrix/timeout/{id}")
 //    @HystrixCommand(fallbackMethod = "paymentTimeOutFallbackMethod",commandProperties = {
 //            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds",value = "1500")  //3秒钟以内就是正常的业务逻辑
